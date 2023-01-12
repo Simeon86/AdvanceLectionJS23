@@ -1,0 +1,57 @@
+@keyframes move {
+    0% {
+
+    }
+    50% {
+
+    }
+    100% {
+
+    }
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+}
+
+.box.move {
+    left: 80%;
+}
+
+.clickMe {
+    background-color: blueviolet;
+    border-radius: 100px;
+    /* box-shadow: 0 0 0 10px green; */
+    transition: 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.over {
+    box-shadow: 0 0 0 50px blue;
+}
